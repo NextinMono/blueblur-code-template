@@ -1,0 +1,3 @@
+[submodule "dependencies/blueblur"]
+	path = dependencies/blueblur
+	url = https://github.com/blueskythlikesclouds/BlueBlur
