@@ -3,7 +3,8 @@
 
 /// Basic hook structure
 ///  1. Return type
-///  2. Calling convention, which can be __cdecl, __fastcall, __stdcall. In the case you get a __thiscall, you use __fastcall
+///  2. Calling convention, which can be __cdecl, __fastcall, __stdcall. In the case you get a __thiscall, you use __fastcall.
+///     However, to call and hook __usercall and __userpurge functions, a bit of assembly is required, and HOOK cannot be used.
 ///  3. Function name (you can set it to anything you like)
 ///  4. Address of the function
 ///  5+. Function arguments, if the function is __fastcall, the second argument has to be `void* edx`
