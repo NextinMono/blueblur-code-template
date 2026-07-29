@@ -16,5 +16,5 @@ This solution automatically takes care of copying the mod files to your mod's fo
 To add GensPath to PATH:
 1. Search for "Edit the system environment variables"
 2. Go to "Environment Variables..."
-3. Add a new User Variable, set its name to `GensPath` and set the value to the folder containing `SonicGenerations.exe`, NOT the path to the executable itself, but it's parent folder (e.g `C:\Program Files (x86)\Steam\steamapps\common\Sonic Generations\`)
+3. Add a new User Variable, set its name to `GensPath` and set the value to the folder containing `SonicGenerations.exe`, NOT the path to the executable itself, but its parent folder (e.g `C:\Program Files (x86)\Steam\steamapps\common\Sonic Generations\`)
 4. Log out and log back in or restart Windows
