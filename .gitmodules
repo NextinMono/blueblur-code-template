@@ -1,3 +1,6 @@
 [submodule "dependencies/blueblur"]
 	path = dependencies/blueblur
 	url = https://github.com/blueskythlikesclouds/BlueBlur
+[submodule "dependencies/commonlib"]
+	path = dependencies/commonlib
+	url = https://github.com/hedge-dev/CommonLib
